@@ -33,7 +33,7 @@ deploy_prod:
   script:
     - echo "Deploying to Production"
     - npm install
-    - ssh root@45.55.44.195 "cd /home/forge/pillmeter && npm install && git pull && bash -c \"pm2 stop PillMeter.com && pm2 delete PillMeter.com && pm2 start app.js --name PillMeter.com && pm2 logs --nostream --lines 2 PillMeter.com && exit 0\" && exit 0"
+    - ssh root@206.189.236.142 "cd /opt/apps/pillmeter.com && npm install && git pull && bash -c \"pm2 stop PillMeter.com && pm2 delete PillMeter.com && pm2 start app.js --name PillMeter.com && pm2 logs --nostream --lines 2 PillMeter.com && exit 0\" && exit 0"
   environment:
     name: production
     url: https://pillmeter.com
