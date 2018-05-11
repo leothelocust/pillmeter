@@ -14,8 +14,6 @@ before_script:
   - mkdir -p ~/.ssh
   - chmod 700 ~/.ssh
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - echo "$SSH_KNOWN_HOST" > ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
 
 stages:
   - test
