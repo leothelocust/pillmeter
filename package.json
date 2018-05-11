@@ -1,0 +1,23 @@
+{
+  "name": "pillmeter",
+  "version": "1.0.0",
+  "description": "PillMeter",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "nodemon": "^1.17.3",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "startdev": "./node_modules/.bin/nodemon app.js",
+    "test": "nyc --reporter=html --reporter=text mocha --timeout 10000 --colors --exit",
+    "coverage": "nyc --reporter=html --reporter=text mocha --timeout 10000 --exit"
+  },
+  "author": "Levi Olson <me@leviolson.com>",
+  "license": "UNLICENSE"
+}
