@@ -1,8 +1,8 @@
 # PillMeter #
 
-[![pipeline status](https://gitlab.com/olson.levi/pillmeter/badges/master/pipeline.svg)](https://gitlab.com/olson.levi/pillmeter/commits/master)
-[![coverage report](https://gitlab.com/olson.levi/pillmeter/badges/master/coverage.svg)](https://gitlab.com/olson.levi/pillmeter/commits/master)
-[![status stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](https://pillmeter.com/)
+[![project pipeline status](https://gitlab.com/olson.levi/pillmeter/badges/master/pipeline.svg)](https://gitlab.com/olson.levi/pillmeter/commits/master)
+[![project coverage report](https://gitlab.com/olson.levi/pillmeter/badges/master/coverage.svg)](https://gitlab.com/olson.levi/pillmeter/commits/master)
+[![project status stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](https://pillmeter.com/)
 
 ## Disclaimer ##
 
